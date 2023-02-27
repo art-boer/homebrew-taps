@@ -1,4 +1,4 @@
-class Meilisearch < Formula
+class MeilisearchAT0305 < Formula
   desc "Ultra relevant, instant and typo-tolerant full-text search API"
   homepage "https://docs.meilisearch.com/"
   url "https://github.com/meilisearch/meilisearch/archive/v0.30.5.tar.gz"
