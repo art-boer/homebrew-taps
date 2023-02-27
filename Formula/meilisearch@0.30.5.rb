@@ -5,11 +5,6 @@ class MeilisearchAT0305 < Formula
   sha256 "56b78e31fab27daf1bed305e986550711d219be9392979b7c98aee4dec0d51b5"
   license "MIT"
 
-  livecheck do
-    url :stable
-    regex(/^v?(\d+(?:\.\d+)+)$/i)
-  end
-
   bottle do
     sha256 cellar: :any_skip_relocation, arm64_ventura:  "a30b470e00cf3bace39aacb4d2a0bb4866128dc320ed4489360e22f6b7104942"
     sha256 cellar: :any_skip_relocation, arm64_monterey: "b0236f6346f5717edf9d2e0a84d288e8974a1023d5fd565a779693aa0503c17d"
